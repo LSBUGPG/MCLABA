@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class NarrativeEvent {
 	public List<Dialogue> dialogues;
 }
 
+[System.Serializable]
 public struct Dialogue{
 
 	public CharacterType characterType;
@@ -14,7 +16,8 @@ public struct Dialogue{
 	public string dialogueText;
 }
 
-    public enum CharacterType{
+[System.Serializable]
+public enum CharacterType{
 	Takeshi, Lucci, Rob
 }
 

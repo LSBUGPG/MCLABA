@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
-using LitJson;
 
 //list of JSON file with path extensions
 //Only NarrativeManager should be able to use this script
@@ -23,7 +22,7 @@ namespace JSONFactory {
 
 			if (IsValidJSON (resourcePath) == true) {
 				string jsonString = File.ReadAllText (Application.dataPath + resourcePath);
-				NarrativeEvent narrativeEvent = JsonMapper.ToObject<NarrativeEvent> (jsonString);
+                NarrativeEvent narrativeEvent = JsonUtility.FromJson<NarrativeEvent> (jsonString);
 
 				return narrativeEvent;
 			} else {
