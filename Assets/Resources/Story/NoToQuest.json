@@ -1,0 +1,10 @@
+{
+   "dialogue":[
+      {
+         "name":"Mentor",
+         "panel":"left",
+         "atlasImageName":"Wizard",
+         "dialogueText":"Oh well, back to bed... zzz"
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+{
+   "dialogue":[
+      {
+         "name":"Mentor",
+         "panel":"left",
+         "atlasImageName":"Wizard",
+         "dialogueText":"Don't just stand there, get going!"
+      }
+   ]
+}
