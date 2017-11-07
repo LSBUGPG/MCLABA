@@ -3,38 +3,32 @@
    "dialogue":[
       {
          "name":"Hero",
-         "panel":"left",
-         "atlasImageName":"Heroine_Neutral",
+         "portrait":"none",
          "dialogueText":"Time to answer the call to adventure."
       },
       {
          "name":"Ally",
-         "panel":"right",
-         "atlasImageName":"Hero_Surprised",
+         "portrait":"Hero_Surprised",
          "dialogueText":"Do we have to? I would prefer if we could stay home..."
       },
       {
          "name":"Hero",
-         "panel":"left",
-         "atlasImageName":"Heroine_Angry",
+         "portrait":"none",
          "dialogueText":"Don't be so lazy!"
       },
       {
          "name":"Ally",
-         "panel":"right",
-         "atlasImageName":"Hero_Default",
+         "portrait":"Hero_Default",
          "dialogueText":"I'm no being lazy, look let's just ask the mentor."
       },
       {
          "name":"Mentor",
-         "panel":"left",
-         "atlasImageName":"Wizard",
+         "portrait":"Wizard",
          "dialogueText":"Hello is it true that there is a quest afoot?"
       },
       {
          "name":"Ally",
-         "panel":"right",
-         "atlasImageName":"Hero_Default",
+         "portrait":"Hero_Default",
          "dialogueText":"um..."
 	  }
    ],

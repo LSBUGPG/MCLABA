@@ -4,12 +4,7 @@
          "name":"Mentor",
          "portrait":"Wizard",
          "affection":"5",
-         "dialogueText":"Don't just stand there, get going!"
+         "dialogueText":"Good luck!"
       }
-   ],
-   "options":[
-		{
-			"jumpTo":"OnTheQuest"
-		}
-	]
+   ]
 }

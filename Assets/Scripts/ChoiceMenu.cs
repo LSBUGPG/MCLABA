@@ -8,14 +8,32 @@ public class ChoiceMenu : MonoBehaviour
 {
     public Button choicePrefab;
 
-    public void SetChoices(List<DialogueOption> choices, System.Action<string> jumpTo)
+	public void SetChoices(List<DialogueOption> choices, Dictionary<string, Character> characters, System.Action<string> jumpTo)
     {
         foreach (DialogueOption choice in choices)
         {
-            Button button = Instantiate(choicePrefab, transform);
-            Text text = button.GetComponentInChildren<Text>();
-            text.text = choice.choiceText;
-            button.onClick.AddListener(() => { ClearChoices(); jumpTo(choice.jumpTo); });
+			if (string.IsNullOrEmpty (choice.choiceText)) {
+				Character character = null;
+				if (string.IsNullOrEmpty (choice.requiredCharacter)) {
+					jumpTo (choice.jumpTo);
+					break;
+				}
+				else if (characters.TryGetValue (choice.requiredCharacter, out character)) {
+					if (character.affection >= choice.requiredAffection) {
+						jumpTo (choice.jumpTo);
+						break;
+					}
+				}
+
+			} else {
+				Button button = Instantiate (choicePrefab, transform);
+				Text text = button.GetComponentInChildren<Text> ();
+				text.text = choice.choiceText;
+				button.onClick.AddListener (() => {
+					ClearChoices ();
+					jumpTo (choice.jumpTo);
+				});
+			}
         }
     }
 

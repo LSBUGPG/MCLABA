@@ -14,6 +14,8 @@ public class NarrativeEvent
 public struct DialogueOption
 {
     public string choiceText;
+	public string requiredCharacter;
+	public int requiredAffection;
     public string jumpTo;
 }
 
@@ -21,7 +23,7 @@ public struct DialogueOption
 public struct Dialogue
 {
     public string name;
-    public string panel;
-    public string atlasImageName;
+    public string portrait;
+	public int affection;
     public string dialogueText;
 }
