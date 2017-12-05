@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using UnityEngine.SceneManagement;
 
 public class Story : MonoBehaviour
 {
@@ -9,11 +11,16 @@ public class Story : MonoBehaviour
 	public Image portrait;
 	public Text speakerName;
 	public Text dialogueBox;
+	public Text date;
 	public ChoiceMenu menu;
 	public bool debugLoad = false;
+	public int time = 0;
+	public Slider affectionSlider;
+	public AudioSource musicPlayer;
 
 	Dictionary<string, NarrativeEvent> narrative = new Dictionary<string, NarrativeEvent> ();
 	Dictionary<string, Sprite> images = new Dictionary<string, Sprite> ();
+	Dictionary<string, AudioClip> music = new Dictionary<string, AudioClip>();
 	Dictionary<string, Character> characters = new Dictionary<string, Character>();
 
 	void Start ()
@@ -38,7 +45,14 @@ public class Story : MonoBehaviour
 			images [sprite.name] = sprite;
 		}
 
-		StartCoroutine (Play ("Start"));
+		foreach (AudioClip track in Resources.LoadAll<AudioClip>("Sounds")) {
+			if (debugLoad) {
+				Debug.LogFormat ("Loaded music {0}", track.name);
+			}
+			music [track.name] = track;
+		}
+
+		StartCoroutine (Play ("DemoStart"));
 	}
 
 	IEnumerator Play (string passageName)
@@ -49,6 +63,13 @@ public class Story : MonoBehaviour
 			Sprite backgroundImage = null;
 			if (!string.IsNullOrEmpty (passage.background) && images.TryGetValue (passage.background, out backgroundImage)) {
 				background.SetBackground (backgroundImage);
+			}
+
+			AudioClip track = null;
+			if (!string.IsNullOrEmpty (passage.music) && music.TryGetValue (passage.music, out track)) {
+				musicPlayer.Stop ();
+				musicPlayer.clip = track;
+				musicPlayer.Play ();
 			}
 
 			foreach (Dialogue dialogue in passage.dialogue) {
@@ -67,21 +88,34 @@ public class Story : MonoBehaviour
 
 				speakerName.text = dialogue.name;
 
-				if (dialogue.affection != 0) {
-					Character character = null;
-					if (!characters.TryGetValue (dialogue.name, out character)) {
-						character = new Character ();
-						character.name = dialogue.name;
-						characters.Add (character.name, character);
-						Debug.LogFormat ("Adding character {0}", character.name);
-					}
+				Character character = null;
+				if (!characters.TryGetValue (dialogue.name, out character)) {
+					character = new Character ();
+					character.name = dialogue.name;
+					characters.Add (character.name, character);
+					Debug.LogFormat ("Adding character {0}", character.name);
+				}
 
+				if (dialogue.affection != 0) {
 					character.affection += dialogue.affection;
 				}
 
+				affectionSlider.value = character.affection;
+
+				time += dialogue.time;
+
+				DateTime date = new DateTime (2017, 4, 11)  + new TimeSpan (6 * time, 0, 0);
+				this.date.text = string.Format ("{0}/{1}", date.Day, date.Month);
+
+				bool skip = false;
 				foreach (char letter in dialogue.dialogueText) {
 					dialogueBox.text += letter;
-					yield return null;
+					if (!skip) {
+						yield return null;
+						if (Input.GetMouseButtonUp (0)) {
+							skip = true;
+						}
+					}
 				}
 
 				yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
@@ -100,5 +134,7 @@ public class Story : MonoBehaviour
 				yield return new WaitUntil (() => selected);
 			}
 		}
+
+		SceneManager.LoadScene ("Credits");
 	}
 }

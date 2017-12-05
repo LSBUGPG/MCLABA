@@ -1,0 +1,20 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to hang out with Lucci-Chan...Since keeping an eye on her antics is probaby important..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lunch ended shortly after that and the day moved on..."
+}
+],
+"options":[
+{
+"jumpTo":"LucciEvent2Start"
+}
+]
+}

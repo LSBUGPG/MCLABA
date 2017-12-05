@@ -1,0 +1,50 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I couldn’t risk getting caught at this school doing such indecent things! I mean imagine the stories..."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Takeshi-Kun, don’t worry so much! Besides isn’t the thrill of getting caught just a bit exciting?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "This girl is a pervert! She is just like that awful teacher!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "U-um...I don’t think that is the right attitude for a student to have Lucci-Chan..."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Nonsense! Just let me make a phone call or two and we will see."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I tried to stop her, but Lucci was already on the phone, and then after a few minutes she came off in a real huff."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "I’m sorry Takeshi-Kun, but apparently, we can’t do anything fun today, as my head-minion is taking a day off or something..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Her face was one of complete frustration..."
+}
+],
+"options":[
+{
+"jumpTo":"LucciEvent2Continued2"
+}
+]
+}

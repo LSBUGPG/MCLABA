@@ -1,0 +1,45 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "And here I was hoping to get this child underway."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It was then that a bit of curiosity hit me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "U-um, I have to ask Lucci-Chan...Why are you so desperate to have a kid?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci’s face changed for a moment."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "W-well it is because you...are my destined one and so I want us to have a family and whatnot."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I could tell she was nervous and didn’t know what to say."
+}
+],
+	"options":[
+{
+"choiceText":"Press the issue",
+"jumpTo":"PressTheIssue"
+},
+{
+"choiceText": "Ignore the issue",
+"jumpTo": "IgnoreTheIssue"
+}
+]
+}

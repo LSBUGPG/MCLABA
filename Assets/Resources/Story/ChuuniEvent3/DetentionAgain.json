@@ -1,0 +1,40 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni-Chan, it was because of this type of behaviour that you got detention remember?"
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Ah, don’t remind me...that was a long three weeks."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni’s eyes drifted off into the distance like someone remembering something incredibly life-changing."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Was the detention really that bad? I wonder what could’ve happened to her when she went there..."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Well whatever! I will be waiting outside Takeshi-Kun, so please try not to take too much longer okay?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I finished my business and washed my hands."
+}
+],
+   "options":[
+		{
+			"jumpTo":"ChuuniEvent3Continued"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Yes it is all away...nothing to worry about anymore."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "I’m glad, that was really embarrassing!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni seemed quite in a huff because of what I did."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Anyway you shouldn’t even be in the boy’s room."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Sorry Takeshi-Kun, but I am wherever I am needed!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "And she is needed in the men’s room? I really want to know what that says about her as a person..."
+}
+],
+   "options":[
+		{
+			"jumpTo":"ChuuniEvent3Continued"
+		}
+	]
+}

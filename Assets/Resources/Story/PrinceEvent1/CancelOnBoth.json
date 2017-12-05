@@ -1,0 +1,20 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to cancel on both...I mean what is the worst that could happen?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The rest of my lunch was uneventful. I went through my afternoon classes and before I knew it, it was the end of th day."
+}
+],
+	 "options":[
+		{
+			"jumpTo":"PrinceEvent1"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Okay well believe me when I say I know my facts. Those three weeks of detention showed me what he was truly like." 
+},
+{
+"name": "Takeshi",
+"portrait": "none", 
+"dialogueText": "Chuuni-Chan, what did he do to you?" 
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "He made me sit in absolute silence for an hour, each session so he could nap! If I even so much as coughed he would wake up and then get mad at me...a true demon!" 
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Wait is that really a reason to punish this guy!? What is she talking about!?"
+},
+{
+"name": "Takeshi",
+"portrait": "none", 
+"dialogueText": "Chuuni-Chan, maybe you shouldn’t use your personal feelings to decide who is and isn’t a villain!" 
+}
+],
+"options":[
+{
+"jumpTo":"ChuuniEvent3Ending"
+}
+]
+}

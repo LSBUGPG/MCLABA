@@ -1,0 +1,15 @@
+{
+   "dialogue":[
+      {
+         "name":"Mentor",
+         "portrait":"Wizard",
+         "affection":"5",
+         "dialogueText":"Don't just stand there, get going!"
+      }
+   ],
+   "options":[
+		{
+			"jumpTo":"OnTheQuest"
+		}
+	]
+}

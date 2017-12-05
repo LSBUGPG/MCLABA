@@ -1,0 +1,40 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Nope I haven’t, why do you ask?"
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "H-How can you just walk around like that!?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni won’t take her eyes away from her face."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Quite easily. You just don’t put “it” away..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni let out a low whining growl like a defeated beast before I felt bad enough that I told her she could look again."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "That was mean Takeshi-Kun! How can you tease a girl like that!?"
+}
+],
+   "options":[
+		{
+			"jumpTo":"ChuuniEvent3Continued"
+		}
+	]
+}

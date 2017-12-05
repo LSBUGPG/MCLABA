@@ -1,0 +1,30 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Chuuni",
+"portrait": "chuuni", 
+"dialogueText": "The way he acts mainly, demons and the like walk around with this sense of entitlement that others can’t even understand." 
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Well thinking on Lucci that is probably true." 
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Why are you asking Takeshi-Kun? Do you not trust me?"
+}
+],
+"options":[
+{
+"choiceText":"Just Checking",
+"jumpTo":"JustChecking"
+},
+{
+"choiceText":"I trust you",
+"jumpTo":"ITrustYou"
+}
+]
+}

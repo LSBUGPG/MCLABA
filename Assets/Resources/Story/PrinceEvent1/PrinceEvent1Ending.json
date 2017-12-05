@@ -1,0 +1,65 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Ah you seem confused! Well I suppose that is to be expected. You see my name is Eric, but everybody calls me Prince, due to my royal ancestry of a humble, but beautiful western country."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "A small western country? A prince? Come on this is all getting a bit ridiculous isn’t it?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "In my country we hold the esteemed values of old in the highest regard. That is why we still keep Knights around...though admittedly it is more or less a title and nothing more."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "He started to go on some tirade about how great his country is..."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "My point is you have all the makings of becoming a knight! What do you say will you become a knight in my servitude?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "This guy does realise what he is asking right?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "You do realise that we barely know each other right? And yet you are asking me to become a knight in your service?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Quite the sceptic aren’t we?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Most normal people would question him wouldn’t they?"
+},
+{
+"name": "Prince",
+"portrait": "Prince",
+"dialogueText": "Well that is fine. I am sure after listening to some stories of great valour you will agree to become a knight in my service!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I am about to say no and then my tattoo comes into my view. Maybe I am becoming more and more of a defeatist, but I just know that even if I say I won’t I’m just going to get dragged along anyway...."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "He gave me his phone number and I went home."
+}
+]
+}

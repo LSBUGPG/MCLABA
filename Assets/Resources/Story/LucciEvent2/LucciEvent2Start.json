@@ -1,0 +1,30 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I was sitting alone in class at the end of the day packing up my stuff when I noticed the cold stare of somebody from the doorway."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I had an idea of who it was, but I didn’t know if I should actually give any form of response to her."
+}
+],
+"options":[
+{
+"choiceText":"Hey Lucci!",
+"jumpTo":"HeyLucci!"
+},
+{
+"choiceText":"Ignore Her",
+"jumpTo":"KeepIgnoringLucci"
+}
+]
+}

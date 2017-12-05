@@ -1,0 +1,115 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Ms Shimizu",
+"portrait": "Ms Shimizu",
+"dialogueText": "And remember class, golden week starts next week. Now it may be a holiday, but that doesn’t mean you can all slack on your studies."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Golden week? Ah I forgot that was starting next week."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It is unsurprising all things considered that I forgot. When you have people demanding your time and attention every moment of every day...well you barely have time to remember the smaller things in life."
+},
+{
+"name": "Ms Shimizu",
+"portrait": "Ms Shimizu",
+"dialogueText": "Oh and definitely remember not to do anything dangerous okay? I want to see all of you come back to class after next week."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Don't do anything dangerous? Well outside of dealing with demons, robots from the future and the odd alien...I don't think my life could get anymore dangerous actually..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Either way, it doesn’t matter. The only thing I want during this week off is a break from the usual craziness that is dealing with the people in my life."
+},
+{
+"name": "Groupie1",
+"portrait": "none",
+"dialogueText": "Prince-Kun!"
+},
+{
+"name": "Groupie2",
+"portrait": "none",
+"dialogueText": "Prince-Kun look this way!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My eyes drift outside to the window and right on cue is another strange-looking person. I remember seeing him earlier in the year. He is a pretty-boy with longish blonde hair, deep blue eyes, but his most notable feature is that he is riding a horse."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText":"Why was he allowed to bring a horse to school?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "These situations keep getting stupider...Maybe if I don’t make eye contact with him he will leave me alone? Yeah right, has that ever worked?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I stared down at the horse-riding man as I pondered how to avoid his company. I mean I know he will most likely force his way into my life. I am curious as to how this will play out exactly."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "You there in the window!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "In the window? Oh he means me...well of course he does."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "...What does he want?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I felt my hand start to itch. So that definitely means that he is another one of those weirdos dragged her by the curse..."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText":"Hello there."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I must've been lost in thought because I felt myself snap back to reality as I heard his voice. I turned to face him and found the man standing in the window. How did he get up here so fast!? Isn’t this the second floor?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Haha! I can see you are surprised at my sudden appearance! Every gentleman must know how to valiantly climb a wall or two in order to save a beautiful damsel."
+}
+],
+"options":[
+		{
+			"choiceText":"I am not a damsel...",
+			"jumpTo":"IAmNotADamsel"
+		},
+		{
+			"choiceText":"Oh Prince-Kun!",
+			"jumpTo":"OhPrinceKun"
+		},
+		{
+			"choiceText":"What do you want?",
+			"jumpTo":"WhatDoYouWant"
+		}
+	]
+
+}

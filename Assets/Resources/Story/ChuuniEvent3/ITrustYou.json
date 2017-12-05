@@ -1,0 +1,25 @@
+{
+"dialogue":[
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"affection": "3",
+"dialogueText": "I’m glad."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni’s smile became softer than any she has shown before. Hmm? Is that a blush on her cheeks?"
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Now let’s stop this horrible man!"
+}
+],
+"options":[
+{
+"jumpTo":"ChuuniEvent3Ending"
+}
+]
+}

@@ -1,0 +1,68 @@
+{
+"background": "classroom",
+"music": "Ending",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It was lunchtime and I was eating alone (the usual for me), but as I got halfway through my food my phone started to ring a whole bunch."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Urgh...how annoying...It looks like two of my 'friends' want me to hang out with them...I really don't want to though..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I started to contemplate leaving the school early...But as I did I noticed my hand started to burn where the curse mark was..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Okay, okay I get it, fine...I will hang out with one of them today..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I open up my phone and begin reading the text messages. The first is from Chuuni-Chan...The second is Lucci-Chan..."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"affection": "20",
+"dialogueText": "Hey Takeshi-Kun. I need your help today with the investigation!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Okay so that was Chuuni's, now how about Lucci's text?"
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"affection": "20",
+"dialogueText": "Hello my destined one...how about coming to spend time with me today after school?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I think both will be rather annoying to spend time with...Maybe I should cancel on both of them?"
+}
+],
+"options":[
+		{
+			"choiceText":"Cancel on both",
+			"jumpTo":"CancelOnBoth"
+		},
+		{
+			"choiceText":"Hang with Chuuni",
+			"jumpTo":"HangWithChuuni"
+		},
+		{
+			"choiceText":"Hang with Lucci",
+			"jumpTo":"HangWithLucci"
+		}
+	]
+
+}

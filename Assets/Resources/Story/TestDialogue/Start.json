@@ -1,0 +1,50 @@
+{
+   "background":"classroom",
+   "dialogue":[
+      {
+         "name":"Hero",
+         "portrait":"none",
+         "dialogueText":"Time to answer the call to adventure."
+      },
+      {
+         "name":"Ally",
+         "portrait":"prince",
+         "dialogueText":"Do we have to? I would prefer if we could stay home...",
+		 "time":"1"
+      },
+      {
+         "name":"Hero",
+         "portrait":"none",
+         "dialogueText":"Don't be so lazy!"
+      },
+      {
+         "name":"Ally",
+         "portrait":"Hero_Default",
+         "dialogueText":"I'm no being lazy, look let's just ask the mentor."
+      },
+      {
+         "name":"Mentor",
+         "portrait":"Wizard",
+         "dialogueText":"Hello is it true that there is a quest afoot?"
+      },
+      {
+         "name":"Ally",
+         "portrait":"Hero_Default",
+         "dialogueText":"um..."
+	  }
+   ],
+   "options":[
+		{
+			"choiceText":"Yes",
+			"jumpTo":"YesToQuest"
+		},
+		{
+			"choiceText":"no",
+			"jumpTo":"NoToQuest"
+		},
+		{
+			"choiceText":"no",
+			"jumpTo":"NoToQuest"
+		}
+	]
+}

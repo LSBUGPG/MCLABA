@@ -1,0 +1,53 @@
+{
+"background": "classroom",
+"dialogue":[
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I figured why not play into the role of damsel? It could be fun after all."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"affection":"5",
+"dialogueText": "Of course I would save you any day."
+
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "He puts on a gorgeous smile that almost makes me swoon. Wow he has really pretty eyes huh?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Anyway please tell me your name young sir!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "He seems quite eager to talk to me. It kind of makes me sad to be honest because it reminds me that no girls have given me this type of reaction since coming here..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My name is Takeshi."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Ah Takeshi-kun? What a heroic name! Perhaps I was right about you!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What does he mean right about me?"   
+}
+],
+   "options":[
+		{
+			"jumpTo":"PrinceEvent1Ending"
+		}
+	]
+}
+

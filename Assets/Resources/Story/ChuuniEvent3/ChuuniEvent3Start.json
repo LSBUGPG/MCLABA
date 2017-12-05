@@ -1,0 +1,60 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Ahhh..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Nothing beats using the bathroom when you are really desperate."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I felt the comfortable shiver of emptying my bladder. It was nice to be able to relax for once in my life without the fear of being harassed by crazy people."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Takeshi-Kun, come on we need to go."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "WAAAAAAHHH!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I screamed as I turned around to the girl standing behind me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni-Chan!? What are you doing!? This is the men’s room!"
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Ah don’t worry about that! Justice takes precedence over such small technicalities."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She is an idiot..."
+}
+],
+"options":[
+{
+"choiceText":"Turn around",
+"jumpTo":"TurnAroundForChuuni"
+},
+{
+"choiceText": "You'll get in trouble",
+"jumpTo": "DetentionAgain"
+}
+]
+}

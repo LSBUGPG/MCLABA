@@ -1,0 +1,20 @@
+{
+   "dialogue":[
+      {
+         "name":"Mentor",
+         "portrait":"Wizard",
+         "affection":"0",
+         "dialogueText":"Oh well, back to bed... zzz"
+      },
+      {
+         "name":"Mentor",
+         "portrait":"Wizard",
+         "dialogueText":"Wait a minute! Get out there!"
+      }
+   ],
+   "options":[
+		{
+			"jumpTo":"OnTheQuest"
+		}
+	]
+}

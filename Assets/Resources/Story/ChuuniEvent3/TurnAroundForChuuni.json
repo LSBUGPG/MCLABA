@@ -1,0 +1,50 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She is an idiot, but if this is what she wants."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "T-Takeshi-Kun!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni placed her hands in front of her eyes. She looked so courageous until a few seconds ago."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I guess she is still a girl at heart even if she acts like a crazy person."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I zip up my pants and walk over to the sink to wash my hands."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Takeshi-Kun, have you put it away yet?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She really makes my life a lot harder."
+}
+],
+"options":[
+{
+"choiceText":"Mess with her",
+"jumpTo":"MessWithHer"
+},
+{
+"choiceText":"It's away",
+"jumpTo":"It'sAway"
+}
+]
+}

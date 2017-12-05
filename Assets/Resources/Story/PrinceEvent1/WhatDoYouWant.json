@@ -1,0 +1,25 @@
+{
+"background": "classroom",
+"dialogue":[
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I really just hope to get his answer and move this along...I am getting too used to dealing with these freaks."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Aha! What a bold and brazen attitude! Yes it appears you are the man I was looking for."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What does he mean man he is looking for?"
+}
+],
+   "options":[
+		{
+			"jumpTo":"PrinceEvent1Ending"
+		}
+	]
+}

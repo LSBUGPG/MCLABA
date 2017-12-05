@@ -1,0 +1,26 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to cut the middle man and just talk to her."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"affection": "2",
+"dialogueText": "Oh how did you know it was me!? Wow this must be what they mean by a deep connection!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I watched Lucci dancing back and forth and found myself sighing. She really is too happy."
+}
+],
+"options":[
+{
+"jumpTo":"LucciEvent2Continued"
+}
+]
+}

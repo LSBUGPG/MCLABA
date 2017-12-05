@@ -1,0 +1,41 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I think she has a great idea! I mean if we won’t get caught then what the hell?"
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"affection": "3",
+"dialogueText": "Ah I’m so happy you agree! Okay first things first let me just make a call to one of my minions to make sure nobody disturbs us."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "This is really happening! I can’t believe how lucky I am right now!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci made a phone call and she was chatting for what looked like a few minutes, before she turned around and walked back in a huff."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Turns out that we can’t do it today, because apparently the head of my minions is on vacation today."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I stared at Lucci who was pouting like a spoilt child, and to be honest she was surprisingly cute."
+}
+],
+"options":[
+{
+"jumpTo":"LucciEvent2Continued2"
+}
+]
+}

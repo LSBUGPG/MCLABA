@@ -1,0 +1,10 @@
+{
+   "dialogue":[
+      {
+         "name":"Prince",
+         "portrait":"Wizard",
+         "affection":"5",
+         "dialogueText":"Good luck!"
+      }
+   ]
+}

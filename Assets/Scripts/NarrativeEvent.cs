@@ -6,6 +6,7 @@ using UnityEngine;
 public class NarrativeEvent
 {
     public string background;
+	public string music;
     public List<Dialogue> dialogue;
     public List<DialogueOption> options;
 }
@@ -25,5 +26,6 @@ public struct Dialogue
     public string name;
     public string portrait;
 	public int affection;
+	public int time;
     public string dialogueText;
 }

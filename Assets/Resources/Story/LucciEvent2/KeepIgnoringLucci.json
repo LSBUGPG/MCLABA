@@ -1,0 +1,45 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to ignore the uncomfortable feeling from the doorway. It was something I regretted though as I could feel it getting more and more intense by the second."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Maybe I should answer her?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I turned around, but much to my surprise there was nobody there."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Was it just my imagination?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I turned back and jumped as Lucci was right next to me!"
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Hey Takeshi-Kun!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I fell to the floor!"
+}
+],
+"options":[
+{
+"jumpTo":"LucciEvent2Continued"
+}
+]
+}

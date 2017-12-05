@@ -1,0 +1,65 @@
+{
+"background": "classroom",
+"dialogue":[
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I mutter my thoughts aloud, but Prince seems to not even notice me."
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "I knew it when I saw you staring down at me! You clearly are something special!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What is he talking about?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "That hollow gaze of indifference! That scrawny body! That seething sense of self-righteousness! You have all the makings of a knight!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Why does everybody feel the need to treat me like crap all of the time!? I mean the indifference I get, but scrawny body? Self-righteousness? He just jumped here to insult me!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Wait a second...a knight?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What is he talking about?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "Ah you seem confused! Well I suppose that is to be expected. You see my name is Eric and I am the Prince of a humble, but beautiful western country."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "A small western country? A prince? Come on this is all getting a bit ridiculous isn’t it?"
+},
+{
+"name": "Prince",
+"portrait": "prince",
+"dialogueText": "In my country we hold the esteemed values of old in the highest regard. That is why we still keep Knights around...though admittedly it is more or less a title and nothing more."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "He started to go on some tirade about how great his country is..."
+}
+],
+   "options":[
+		{
+			"jumpTo":"PrinceEvent1Ending"
+		}
+	]
+}

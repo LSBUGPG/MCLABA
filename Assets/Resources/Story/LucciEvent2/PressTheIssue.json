@@ -1,0 +1,65 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to press the issue and Lucci’s eyes got a bit more awkward."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "U-Umm...well it is because..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci-Chan, come on be honest with me..."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "It is because my father wanted this of me..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Hmm? Her father did?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Your father wanted this?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci let out a sigh and then her eyes awkwardly met mine before darting towards her feet."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "M-my father is the King of Hell, but due to his past transgressions is trapped down there...the only way for him to leave his world of imprisonment is by having one of his daughters give birth to his son which will eventually free him by combing this realm and the underworld..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "That sounds terrifying...like really scary."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "So the whole reason you are pushing for this so heavily..."
+},
+{
+"name": "Lucci",
+"portrait": "none",
+"dialogueText": "It is so I can free my dad...and well there are other reasons too..." 
+}
+], 
+"options":[
+{
+"jumpTo":"IgnoreTheIssue"
+}
+]
+}

@@ -1,0 +1,55 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I decided to not continue pressing the issue, and clearly Lucci didn’t want to continue talking about it, so I decided to leave it at that."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Well whatever your reasons are...maybe you should think more about why you are doing these things...and well if they are really worth, because I don’t want this world to be put into turmoil..."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci awkwardly looked towards the floor before she let a lonely look crawl across her face. She looked like a wounded animal."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "I...wish I had more of a choice than this..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Um...Lucci-Chan? Are you okay?"
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Of course I am!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci’s face changed to her usual reaction, but before we could continue her phone rang and after answering it she looked quite annoyed."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText":"U-um...sorry Takeshi-Kun...can we talk later? I need to go take care of this!" 
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci then ran off on her own."
+}
+]
+}

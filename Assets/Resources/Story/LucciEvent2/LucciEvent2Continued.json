@@ -1,0 +1,90 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Hey Lucci...w-what are you doing here?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I figured I would find out what exactly it is that she wanted."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "I’m here to see you of course, my destined one."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I felt my heart start to race. The way this girl is looking at me is incredibly...dedicated, as if she wanted something from me that only I could provide."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I better let her know that whatever she thinks is going to happen...well it won’t."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Listen Lucci, I don’t think I am your destined-"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My hand started to itch again and my words seemed to stop."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It also appears Lucci didn’t hear at all."
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText": "Anyway my destined one, I was thinking how about we work on getting that baby thing sorted out today?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "...Is she serious?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "U-um...excuse me?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "There is no way in hell I could’ve heard her correctly! No way at all!"
+},
+{
+"name": "Lucci",
+"portrait": "lucci",
+"dialogueText":"You know? We could go and find a quiet spot nearby, just us two...and get to work."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Lucci’s eyes looked very seductively at me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Wait a minute, is this really going to happen!?"
+}
+],
+"options":[
+{
+"choiceText":"That is a great idea!",
+"jumpTo":"IThinkThatIsAGreatIdea"
+},
+{
+"choiceText":"We could get caught!",
+"jumpTo":"WhatIfWeGetCaught"
+}
+]
+}

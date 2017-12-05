@@ -1,0 +1,40 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni and I made our way to the place she said there was evil afoot. According to her there was a teacher causing trouble to people and that he must be some kind of demon."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Considering Lucci is a part of this school it wouldn’t surprise me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I muttered to myself as we peered into the room."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "There he is!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni pointed towards Mr. Watanabe! Wait I mean he is a bad person, but there is no way he is a demon...Is he?"
+}
+],
+"options":[
+{
+"choiceText": "You're sure about him?",
+"jumpTo":"You'reSureHeIsADemon"
+},
+{
+"choiceText": "How can you tell?",
+"jumpTo": "HowCanYouTell"
+}
+]
+}

@@ -1,0 +1,60 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni had made her way outside and was staring out of the nearby window with a determined look on her face."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "You finally ready? We can hunt for the Villain today."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Hunt for the Villain? What is she talking about?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni-Chan what do you mean we can hunt for the Villain?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Chuuni took a deep breath."
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Takeshi-Kun. This school is not normal...I am not sure if you had already noticed it, but there are people here that are beyond just slightly different..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Does this mean Chuuni realises some of the strange happenings at this school? Some part of me can’t actually believe it considering it is her...But on the other hand maybe she does realise what is going on?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What kind of people are we talking about?"
+},
+{
+"name": "Chuuni",
+"portrait": "chuuni",
+"dialogueText": "Dangerous people...My eye can see it."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I could see Chuuni’s determination. She seemed to really believe this story, so maybe she is not making this up at all?"
+}
+],
+   "options":[
+		{
+			"jumpTo":"ChuuniEvent3FacultyOffice"
+		}
+	]
+}
