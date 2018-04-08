@@ -52,11 +52,43 @@ public class Story : MonoBehaviour
 			music [track.name] = track;
 		}
 
-		StartCoroutine (Play ("DemoStart"));
+		//StartCoroutine (Play ("DemoStart"));
+		StartCoroutine (Play ("FacultyOffice"));
+	}
+
+	string LoadGame()
+	{
+		string loadPosition = null;
+		SaveGame game = FindObjectOfType<SaveGame> ();
+		if (game != null) {
+			SaveData data = game.saveData;
+			loadPosition = data.position;
+			time = data.time;
+			foreach (Character character in data.characters) {
+				characters.Add (character.name, new Character(character));
+			}
+		}
+		return loadPosition;
+	}
+
+	public SaveData CreateSaveData(string jumpTo)
+	{
+		SaveData gameData = new SaveData ();
+		gameData.position = jumpTo;
+		gameData.time = time;
+		foreach (var entry in characters) {
+			gameData.characters.Add (new Character(entry.Value));
+		}
+		return gameData;
 	}
 
 	IEnumerator Play (string passageName)
 	{
+		string loadPosition = LoadGame();
+		if (loadPosition != null) {
+			passageName = loadPosition;
+		}
+
 		while (passageName != null) {
 			NarrativeEvent passage = narrative [passageName];
 
@@ -90,8 +122,7 @@ public class Story : MonoBehaviour
 
 				Character character = null;
 				if (!characters.TryGetValue (dialogue.name, out character)) {
-					character = new Character ();
-					character.name = dialogue.name;
+					character = new Character (dialogue.name);
 					characters.Add (character.name, character);
 					Debug.LogFormat ("Adding character {0}", character.name);
 				}
@@ -104,8 +135,18 @@ public class Story : MonoBehaviour
 
 				time += dialogue.time;
 
-				DateTime date = new DateTime (2017, 4, 11)  + new TimeSpan (6 * time, 0, 0);
-				this.date.text = string.Format ("{0}/{1}", date.Day, date.Month);
+				DateTime date = new DateTime (2017, 4, 1)  + new TimeSpan (6 * time, 0, 0);
+				string timeOfDay = "Morning";
+				if (time == 0) {
+					timeOfDay = "Morning";
+				} else if (time == 1) {
+					timeOfDay = "Afternoon";
+				} else if (time == 2) {
+					timeOfDay = "Evening";
+				} else if (time == 3) {
+					timeOfDay = "Night";
+				}
+				this.date.text = string.Format ("{0}/{1} {2}", date.Day, date.Month, timeOfDay);
 
 				bool skip = false;
 				foreach (char letter in dialogue.dialogueText) {
