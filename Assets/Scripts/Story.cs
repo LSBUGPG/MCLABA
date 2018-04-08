@@ -52,7 +52,7 @@ public class Story : MonoBehaviour
 			music [track.name] = track;
 		}
 
-		StartCoroutine (Play ("DemoStart"));
+		StartCoroutine (Play ("TestTime"));
 	}
 
 	IEnumerator Play (string passageName)
