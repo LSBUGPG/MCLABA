@@ -1,0 +1,147 @@
+{
+"background": "School",
+"music": "DailyUpbeat",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"time": "6",
+"dialogueText": "“It sure is crowded here.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I thought as I walked through the surprisingly crowded road leading to my school."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText":"“Urgh. This tattoo won’t go away...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I noticed it before, but it seems that this tattoo has been stuck on my hand ever since that old hag cursed me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“I don’t really have time to worry about it not with the new school year just starting.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The walk to school was mostly uneventful. It is a short walk since the dorms are built quite close to the campus."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“What a boring school...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I muttered as the building came into view."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The school looked rather generic with grey walls, a brown gate, a few trees, just like right out of an anime."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "If that anime was a boring slice-of-life with no budget."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I turned the corner leading into the gate and as I do I see a large sign reading, “Welcome to Bizarre Academy!” Hmm? Bizarre Academy? Must be a foreign name or something."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My eyes turned the school entrance and as they do I see a bunch of people wearing long purple robes that have hoods."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Honestly it makes me a little bit uneasy that I can't see their face. I just won't make eye contact!"
+},
+{
+"name": "Hooded man",
+"portrait": "none",
+"dialogueText": "“Excuse me young man, would you think about joining the occult club?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Crap is he talking to me? There isn't anybody else here so he must be talking to me!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“N-no thanks...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I wave my hand in hopes of making it clear I’m not interested."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Unfortunately he had other plans and he grabs my hand! His nails feel sharp...almost like a claw? He’s wearing gloves so I can’t tell, but something is wrong with this guy’s hands!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Uh...dude could you let go?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“But sir! Please consider joining the occult club. We have a clubroom and cookies! You humans love cookies!”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Us Humans? Has he lost it!? I don’t care I need to get away!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Hey you better let go! I-I know karate!”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "...I obviously don't know jack about Karate, but hopefully this will make him let go without getting violent!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I held my hand out, but upon seeing the back of it he grew shocked. I looked down and it was the tattoo that seemed to catch his attention. The Hooded man turns to his friends and they begin to whisper before running off."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“U-uh yeah...you go...I guess?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "What a weird place this school is...I hope not everybody is that crazy!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I thought as I made my way into the school building in hopes of finding the faculty office."
+}
+],
+   "options":[
+		{
+			"jumpTo":"FacultyOffice"
+		}
+	]
+}

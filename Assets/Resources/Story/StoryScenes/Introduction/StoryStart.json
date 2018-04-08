@@ -1,0 +1,243 @@
+{
+"background": "Supermarket",
+"music": "Daily",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"time": "2",
+"dialogueText": "It sure is crowded here."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I thought to myself as I looked around the busy supermarket."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I had gone out to get food for my farewell party as I will be leaving home to attend my new school tomorrow, getting food for my own party? Yep seems about right."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I felt a bit antsy, but also quite excited. I am hopeful for many things at this new school."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I am especially hopeful of the new girls!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My last school had a pretty good crop of girls. Beautiful ones, cute ones, sexy ones, everyday was heaven!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“...Who is that?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Standing by the fruit isle was a beautiful girl, one with looks that were almost magical. I didn’t recognize her uniform though."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Maybe she is a transfer student? It doesn’t matter. What does is that I get her number.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I walk over to her and try to grab something she is grabbing at the same time so as to seem like it was an accident."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Cause I am smooth like that."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Oh sorry! Did you want that?”"
+},
+{
+"name": "Beautiful Girl",
+"portrait": "Matilda",
+"dialogueText": "“...Oh no! If you want it then please take it.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She looked away with a slight blush on her cheeks!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "This atmosphere of awkward shyness is absolutely perfect. Now time to make my move!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Oh no don’t worry about it. Please you take it.”"
+},
+{
+"name": "Beautiful Girl",
+"portrait": "Matilda",
+"dialogueText": "“Oh thank you.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“I’m Takeshi by the way.”"
+},
+{
+"name": "Beautiful Girl",
+"portrait": "Matilda",
+"dialogueText": "“N-nice to meet you. I’m Matilda.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She smiled with a slight blush on her cheeks and stuttered as she spoke. She is so shy! Ah it is making my heart race."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“So are you new to town? I don’t recognize that uniform.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "We spoke about all kinds of things from there, as it turns out Matilda was actually from another school out of town, but she and her mother had moved here due to personal issues."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It was then that an elderly woman came by."
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“Mati, are you done grabbing the groceries?”"
+},
+{
+"name": "Matilda",
+"portrait": "Matilda",
+"dialogueText": "“Yes mother!”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I was surprised. Staring at Matilda’s mother all I could think about was how old and crotchety and far from the beauty of her daughter she was."
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“And who is this?”"
+},
+{
+"name": "Matilda",
+"portrait": "Matilda",
+"dialogueText": "“Oh this is Takeshi.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“I-it’s a pleasure to meet you.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I tried to put on my biggest fake smile. It usually works on getting people to trust me."
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“Is that so? You know I can see past that fake smile of yours.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“W-what are you talking about?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I felt an eerie chill up my spine when she said that. It was almost like the old hag could see right through me."
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“Why don’t you say what is REALLY on your mind?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“I think you are an ugly old hag and that I can’t believe you could have a daughter that is ACTUALLY pretty!”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“I ALSO just thought of a funny joke comparing you to a dying chimp.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "W-what just happened? It felt like I was forced to speak my hidden thoughts."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Well that was a joke! Just a joke! Anyway I should probably head off...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I tried to laugh it off, but it seems that Matilda’s mother didn't take it as a joke as her eyes started wigging out!"
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“Oh I appreciate your honesty. In fact I am so impressed I am thinking of giving you a present.”"
+},
+{
+
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Matilda’s Mother began to chant in some indescribable language."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Ouch! My head is starting to really hurt and my heart feels funny."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Then a small black heart tattoo appeared on my hand!"
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“As long as you have that mark you will attract the affection of some strange folk.”"
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "“Don't worry though, if you learn some respect it will clear up nicely!”"
+},
+{
+"name": "Old Hag",
+"portrait": "Matilda's Mother",
+"dialogueText": "Matilda's mother grabbed her and stormed off cackling like a true witch! What is going on here?"
+}
+],
+   "options":[
+		{
+			"jumpTo":"Introduction"
+		}
+	]
+}

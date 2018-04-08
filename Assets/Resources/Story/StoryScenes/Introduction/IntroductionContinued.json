@@ -1,0 +1,39 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I followed Ms. Shimizu to the classroom where she told me to wait outside. From what I could see the classroom was nice and clean, but not too high-tech."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I don't care about the facilities though. I need to know if the girls are pretty!"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuHappy",
+"dialogueText": "“Now the last thing on the agenda for today is the introduction of a new student. Takeshi-Kun, please come in.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I walk into the room trying to show off my best smile for all the pretty ladies."
+}
+],
+"options": [
+{
+"choiceText": "“Boring introduction”",
+"jumpTo": "BoringIntroduction"
+},
+{
+"choiceText": "Sparkly introduction",
+"jumpTo": "SparklyIntroduction"
+},
+{
+"choiceText": "Funny introduction",
+"jumpTo": "FunnyIntroduction"
+}
+]
+}

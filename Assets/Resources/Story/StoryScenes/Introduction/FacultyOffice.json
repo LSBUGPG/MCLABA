@@ -1,0 +1,25 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I made my way to the faculty office and much to my surprise there was a beautiful female teacher sitting inside!"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Time to turn on the charm!"
+}
+],
+	 "options":[
+   {
+     "choiceText":"“I’m looking for...”",
+     "jumpTo":"MsShimizuIntroduction"
+   },
+   {
+     "choiceText":"“Hey babe.”",
+     "jumpTo":"MsShimizuIntroductionMad"
+   }
+	]
+}

@@ -1,0 +1,188 @@
+{
+"background": "classroom",
+"music": "Daily",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"time": "1",
+"dialogueText": "I was making my way into school and found an uncomfortable feeling running up my back."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "It felt like somebody was watching me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "This continued the moment I got to school all the way to the end of the day."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"time": "1",
+"dialogueText": "Then as I was making my way to the gate to leave I noticed a girl standing there by the gate waiting for me."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She was beautiful with a curvy figure and a great smile, but she also had red skin…and horns? Is that some kind of cosplay? I figured it was best to keep on walking and ignore her."
+},
+{
+"name": "???",
+"portrait": "LucciHappy",
+"dialogueText": "“It’s you…”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I froze. It felt like she was looking deep into my heart. All of a sudden the tattoo on my hand began to itch. The girl’s eyes however never left mine…"
+},
+{
+"name": "???",
+"portrait": "LucciNeutral",
+"dialogueText": "“Hello there. I have been looking all over for you. My destined one.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Destined one? What the hell is she talking about? Is she hitting on me? Even I wouldn’t have the guts to use that kind of line."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The girl moves closer to me."
+},
+{
+"name": "???",
+"portrait": "LucciNeutral",
+"dialogueText": "“My minions were wandering about the school looking for you. I spent the entirety of last year, and the year before hunting for my destined one.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "So this girl is a third year then? Even the students are this crazy?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Maybe it is love at first sight or something and she is trying to pass it off as a destined connection? Not that it is a normal thing to do, just that it wouldn’t surprise me considering this school’s teaching staff."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Not that it is a normal thing to do, just that it wouldn’t surprise me considering this school’s teaching staff."
+},
+{
+"name": "???",
+"portrait": "LucciNeutral",
+"dialogueText": "“Please tell me your name.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“M-my name is Takeshi.”"
+},
+{
+"name": "Lucci",
+"portrait": "LucciHappy",
+"dialogueText": "“Takeshi-kun huh? My name is Lucci and I am the daughter of the greatest demon to ever exist. We are destined to be together.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "She is a demon? Is she being serious? It really looks like she believes what she is saying."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Destined to be together? What are you talking about?”"
+},
+{
+"name": "Lucci",
+"portrait": "LucciNeutral",
+"dialogueText": "“My full name is Luccifer Darkness. I am the daughter of the devil Lucifer. I have come to this school looking for my destined husband, for you.”"
+},
+{
+"name": "Lucci",
+"portrait": "LucciHappy",
+"dialogueText": "“We will wed and bring forth the most powerful demon to ever exist and usher this world into a new age of darkness.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "...What?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“...What?”"
+},
+{
+"name": "Lucci",
+"portrait": "LucciNeutral",
+"dialogueText": "“Takeshi-Kun I understand you may be confused, but please allow me to show you exactly what I am talking about.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The red-skinned girl clicks her fingers and suddenly my mind drifts to a destroyed version of the school."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I look around and see fire and destruction everywhere with weird wails and screams in the background."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Then I hear a voice..."
+},
+{
+"name": "???",
+"portrait": "none",
+"dialogueText": "“Hello Papa...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I turn and see a giant red demon staring down at me with a loving look. It was a like a child staring at their parent."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Then the giant reached down to grab me and lift me up and I closed my eyes. There is no way this is going to end well!"
+},
+{
+"name": "Lucci",
+"portrait": "LucciExcited",
+"dialogueText":"“Did you see it?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I open my eyes and I am back at the school. I notice a cold sweat run down my back...that was horrifying."
+},
+{
+"name": "Lucci",
+"portrait": "LucciHappy",
+"dialogueText": "“Did you see the beauty of the creature we create?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I could see the glee in the girl’s eyes. She is really a demon no way that was anything normal."
+}
+],
+"options": [
+{
+"choiceText": "“What beauty?”",
+"jumpTo": "NoWay"
+},
+{
+"choiceText": "“Are you crazy!?”",
+"jumpTo": "AreYouCrazy"
+}
+]
+}

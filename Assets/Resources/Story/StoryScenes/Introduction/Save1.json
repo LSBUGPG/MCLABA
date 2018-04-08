@@ -1,0 +1,23 @@
+{
+"background": "DormRoom",
+"music": "Ending",
+"dialogue": [
+{
+"name": "Tutorial",
+"portrait": "none",
+"time": "2",
+"dialogueText": "From here on in you can save during the end of the day. Making multiple saves might be wise if you are struggling to manage your time."
+}
+],
+"options":[
+{
+			"choiceText":"Save Game",
+			"specialAction":"saveGame",
+			"jumpTo": "Day2"
+},
+{
+"choiceText": "Don't Save",
+"jumpTo": "Day2"
+}
+]
+}

@@ -1,0 +1,56 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I got told to take a seat by the window. It was quite nice and cool outside, so there was a perfect breeze to match with the warmth of the sun."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "My eyes turned to the grounds of the school, and much to my surprise I caught sight of a strange girl with an eyepatch doing some weird poses to somebody else."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“That's somebody I'm going to avoid…”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I didn’t want a crazy life and I especially didn’t want to have to deal with somebody as ridiculous as that."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Hanging out with that kind of person is a prime way to get seen as a weirdo by everybody else and nobody likes a weirdo.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"time": "1",
+"dialogueText": "Today's classes were uneventful for the most part. It was all introductory stuff that I could barely stay awake for, but every once in a while I would notice something strange out of the window."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "There was a student who was quite small, with grey skin and massive eyes, probably some kind of costume and some pretty-boy riding a horse..."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Is there some kind of horse-riding club I don't know about?"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Then I made my way home..."
+}
+],
+"options": [
+{
+"jumpTo": "Save1"
+}
+]
+}

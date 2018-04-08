@@ -1,0 +1,40 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuAngry",
+"dialogueText": "“Excuse me?”"
+},
+{
+"name": "Watanabe-Sensei",
+"portrait": "MrWatanabe",
+"dialogueText": "“Ha typical! All you boys are alike! You see a pretty girl and you lose yourself!”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuAngry",
+"dialogueText": "“Now that doesn’t seem like appropriate conduct to a teacher. What class are you in? What year?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Well actually I’m new. I'm a second-year student looking for a Ms. Shimizu.”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuNeutral",
+"dialogueText": "“That must mean you are Takeshi Riajuu-Kun correct? That means I am your teacher...unfortunately.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "SHE is MY teacher? She is absolutely perfect! Beautiful face, amazing body! This year is going to be great!"
+}
+],
+"options": [
+{
+"jumpTo": "MrWatanabeIntroduction"
+}
+]
+}
