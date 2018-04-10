@@ -1,0 +1,16 @@
+{
+   "background":"classroom",
+   "dialogue":[
+      {
+         "name":"Hero",
+         "portrait":"none",
+         "dialogueText":"Time passes...",
+         "time":"1"
+      }
+   ],
+   "options":[
+		{
+			"jumpTo":"TestTime"
+		}
+	]
+}

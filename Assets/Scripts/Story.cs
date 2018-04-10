@@ -52,7 +52,6 @@ public class Story : MonoBehaviour
 			music [track.name] = track;
 		}
 
-		//StartCoroutine (Play ("DemoStart"));
 		StartCoroutine (Play ("FacultyOffice"));
 	}
 
@@ -137,14 +136,19 @@ public class Story : MonoBehaviour
 
 				DateTime date = new DateTime (2017, 4, 1)  + new TimeSpan (6 * time, 0, 0);
 				string timeOfDay = "Morning";
-				if (time == 0) {
+				switch (time % 4) {
+				case 0: 
 					timeOfDay = "Morning";
-				} else if (time == 1) {
+					break;
+				case 1:
 					timeOfDay = "Afternoon";
-				} else if (time == 2) {
+					break;
+				case 2:
 					timeOfDay = "Evening";
-				} else if (time == 3) {
+					break;
+				case 3:
 					timeOfDay = "Night";
+					break;
 				}
 				this.date.text = string.Format ("{0}/{1} {2}", date.Day, date.Month, timeOfDay);
 
