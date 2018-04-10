@@ -52,7 +52,7 @@ public class Story : MonoBehaviour
 			music [track.name] = track;
 		}
 
-		StartCoroutine (Play ("TestTime"));
+		StartCoroutine (Play ("FacultyOffice"));
 	}
 
 	string LoadGame()
