@@ -1,0 +1,30 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Hello, I am hoping that we can all get along! Especially you ladies!” *Sparkle*"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "I tried to use my signature move, the Pretty-boy Sparkle! It is a sure-fire way to get all the ladies to notice me Senpai!"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuSad",
+"dialogueText": "“...Right”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "...At least that was the plan, but they are all looking away! What!? Why!? What did I do!? M-my powers? Have they left me?"
+}
+],
+"options": [
+{
+"jumpTo": "Day1"
+}
+]
+}

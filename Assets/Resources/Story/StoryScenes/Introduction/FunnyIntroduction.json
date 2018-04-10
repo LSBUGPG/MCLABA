@@ -1,0 +1,21 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Hi, if you are a time traveler, an esper, or a crazy hooded person then please stay away from me...”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "The other students were baffled at my introduction, but considering the pervert teacher and that strange hooded guy I am not taking any chances with anything else!"
+}
+],
+"options": [
+{
+"jumpTo": "Day1"
+}
+]
+}
+ 

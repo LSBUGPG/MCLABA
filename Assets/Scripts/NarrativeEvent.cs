@@ -18,6 +18,7 @@ public struct DialogueOption
 	public string requiredCharacter;
 	public int requiredAffection;
     public string jumpTo;
+	public string specialAction;
 }
 
 [System.Serializable]

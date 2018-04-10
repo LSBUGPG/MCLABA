@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ChoiceMenu : MonoBehaviour
 {
     public Button choicePrefab;
+	public SaveGame saveGamePrefab;
+	public Story story;
 
 	public void SetChoices(List<DialogueOption> choices, Dictionary<string, Character> characters, System.Action<string> jumpTo)
     {
@@ -29,13 +32,31 @@ public class ChoiceMenu : MonoBehaviour
 				Button button = Instantiate (choicePrefab, transform);
 				Text text = button.GetComponentInChildren<Text> ();
 				text.text = choice.choiceText;
-				button.onClick.AddListener (() => {
-					ClearChoices ();
-					jumpTo (choice.jumpTo);
-				});
+				if (string.IsNullOrEmpty (choice.specialAction)) {
+					button.onClick.AddListener (() => {
+						ClearChoices ();
+						jumpTo (choice.jumpTo);
+					});
+				} else if (choice.specialAction == "saveGame") {
+					button.onClick.AddListener (() => {
+						SaveGame(choice.jumpTo);
+					});
+				}
 			}
         }
     }
+
+	void SaveGame(string jumpTo)
+	{
+		SaveGame saveGame = FindObjectOfType<SaveGame> ();
+		if (saveGame == null) {
+			saveGame = Instantiate (saveGamePrefab);
+			GameObject.DontDestroyOnLoad (saveGame.gameObject);
+		}
+
+		saveGame.saveData = story.CreateSaveData (jumpTo);
+		SceneManager.LoadScene ("SaveScene");
+	}
 
     void ClearChoices()
     {

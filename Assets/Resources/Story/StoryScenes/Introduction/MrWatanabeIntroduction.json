@@ -1,0 +1,65 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Watanabe-Sensei",
+"portrait": "MrWatanabe",
+"dialogueText": "“Boy you should keep your unhealthy desires to yourself.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“W-what?”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuSad",
+"dialogueText": "“Watanabe-sensei? What are you talking about?”"
+},
+{
+"name": "Watanabe-Sensei",
+"portrait": "MrWatanabe",
+"dialogueText": "“I can see where your eyes are looking boy! Your eyes are drifting all over Shimizu-sensei’s body, checking out her boobs and her butt. You boys are all alike!”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Mr. Watanabe stared at me with widened eyes and a heavy blush."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Okay so I am pretty sure this guy is projecting...A creepy perverted teacher? How delightful."
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“With all due respect Sensei my eyes are not doing that!”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuAngry",
+"dialogueText": "“With all due respect Mr. Watanabe I do not believe his eyes were focused on my...body. Maybe you shouldn’t project your thoughts onto the students.”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuAngry",
+"dialogueText": "“Now Takeshi-Kun please follow me, I will take you to your homeroom.”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuAngry",
+"dialogueText": "“Now Takeshi-Kun please follow me, I will take you to your homeroom.”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Shimizu-Sensei grabbed me and pulled me away out of the faculty office."
+}
+],
+"options": [
+{
+"jumpTo": "IntroductionContinued"
+}
+]
+}

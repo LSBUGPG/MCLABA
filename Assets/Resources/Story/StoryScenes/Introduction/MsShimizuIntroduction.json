@@ -1,0 +1,30 @@
+{
+"background": "classroom",
+"dialogue": [
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuNeutral",
+"dialogueText": "“I’m Shimizu-Sensei. That must mean you are my new transfer student...Takeshi Riajuu-Kun was it?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "“Yes. It’s nice to meet you.”"
+},
+{
+"name": "Shimizu-Sensei",
+"portrait": "MsShimizuHappy",
+"dialogueText": "“Well aren’t you polite?”"
+},
+{
+"name": "Takeshi",
+"portrait": "none",
+"dialogueText": "Shimizu-Sensei smiled brightly. Ahhhh she is absolutely stunning! A perfect high-school teacher, now this is the kind of school life I was hoping for!"
+}
+],
+"options": [
+{
+"jumpTo": "MrWatanabeIntroduction"
+}
+]
+}
